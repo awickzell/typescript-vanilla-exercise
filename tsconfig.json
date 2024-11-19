@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es6", /* För moderna JavaScript-funktioner. */
+    "module": "commonjs", /* För Node.js- och CommonJS-moduler. */
+    "rootDir": "./src", /* Källkoden finns här. */
+    "outDir": "./dist", /* Kompilerad JavaScript sparas här. */
+    "strict": true, /* Aktiverar strikt typkontroll. */
+    "esModuleInterop": true, /* Underlättar användning av CommonJS-moduler. */
+    "forceConsistentCasingInFileNames": true, /* Förhindrar felaktig versalisering i filnamn. */
+    "skipLibCheck": true, /* Snabbar upp kompileringen genom att hoppa över kontroll av d.ts-filer. */
+    "noImplicitAny": true, /* Flagga fel för variabler utan typ. */
+    "strictNullChecks": true, /* Gör `null` och `undefined` strikt. */
+    "noImplicitReturns": true, /* Flagga fel för funktioner utan return. */
+    "noUnusedLocals": true, /* Flagga oanvända lokala variabler. */
+    "noUnusedParameters": true, /* Flagga oanvända parametrar. */
+    "noFallthroughCasesInSwitch": true, /* Undvik `switch`-fall utan `break`. */
+    "resolveJsonModule": true, /* Gör det möjligt att importera JSON. */
+    "sourceMap": true /* Generera källkartor för felsökning. */
+  },
+  "include": [
+    "src/**/*"
+  ], /* Inkludera alla filer i `src`-mappen. */
+  "exclude": [
+    "node_modules",
+    "dist"
+  ] /* Exkludera kompilerade filer och moduler. */
+}
